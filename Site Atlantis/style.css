@@ -1,0 +1,217 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,400,500i,600,600i,800');
+
+/* SITE */
+*
+{
+	margin: 0;
+}
+
+.cabecalho
+{
+	width: 100%;
+	height: 150px;
+	background-color: #FF6906;
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 15pt;
+}
+
+#img_logo
+{
+	width: 210px;
+	height: 150px;
+	margin: -5px 100px;
+}
+
+.cabecalho ul
+{
+	position: absolute;
+	right: 100px;
+	top: 50px;
+}
+
+.cabecalho li
+{
+	display: inline-block;
+	float: left;
+	margin: 15px;
+}
+
+.cabecalho li a
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.cabecalho li a:hover
+{
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+.cabecalho li a:active
+{
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+#img_banner
+{
+	width: 100%;
+}
+
+#banner p
+{
+	font-family: 'Raleway', 'Arial', sans-serif;
+	font-size: 52pt;
+	font-weight: 600;
+	font-style: italic;
+	text-align: right;
+	color: #FFFFFF;
+	position: absolute;
+	right: 120px;
+	top: 250px;
+}
+
+.outer
+{
+	font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+.outer h1
+{
+	font-weight: 600;
+	font-style: italic;
+	font-size: 50pt;
+	text-align: center;
+	color: #FF6906;
+	padding: 10px;
+}
+
+#img_parallax
+{
+	width: 100%;
+	height: 350px;
+	background-image: url("Images/foto1.jpg");
+	background-size: 100% 100%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+    opacity: 0.65;
+}
+
+#img_parallax p
+{
+	font-size: 30pt;
+	font-weight: 100;
+	font-style: italic;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 2px #000000;
+	text-align: center;
+	padding-top: 280px;
+}
+
+#lista_servicos
+{
+	width: 100%;
+	height: 770px;
+	background-color: #FFE12E;
+	background-image: url("Images/boneco.png");
+	background-size: 80% 80%;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#lista_servicos h2
+{
+	font-size: 40pt;
+	font-weight: 800;
+	text-indent: 350px;
+	padding-top: 10px;
+}
+
+#lista_servicos ul
+{
+	list-style: none;
+	font-size: 28pt;
+	padding-top: 50px;
+}
+
+#lista_servicos ul li:before
+{
+	content: '✓';
+}
+
+#lista_servicos p
+{
+	font-size: 35pt;
+	font-weight: 500;
+	font-style: italic;
+	padding: 30px;
+	text-align: right;
+}
+
+.rodape
+{
+	width: 100%;
+	height: 230px;
+	background-color: #000000;
+	margin-top: 50px;
+}
+
+.rodape p
+{
+	font-family: 'Raleway', 'Arial', sans-serif;
+	color: #FFFFFF;
+	font-size: 25pt;
+	font-weight: 100;
+	text-align: right;
+	padding: 65px;
+}
+
+/* SOBRE */
+
+.sobre
+{
+	font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+#img_sobre
+{
+	width: 100%;
+}
+
+.sobre h1
+{
+	font-size: 55pt;
+	font-weight: 500;
+	font-style: italic;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 2px #000000;
+	text-align: right;
+	position: absolute;
+	right: 100px;
+	top: 370px;
+}
+
+.sobre h2
+{
+	padding: 50px;
+}
+
+#img_sobre_content
+{
+	float: right;
+	border-radius: 20px;
+	margin: 50px;
+}
+
+.sobre p
+{
+	text-indent: 50px;
+	line-height: 25px;
+	padding: 0 50px;
+	text-align: justify;
+}
